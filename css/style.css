@@ -306,5 +306,25 @@ template {
 /* Colors */
 /* Font sizes */
 /* Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 .heading__primary {
   color: red; }
+
+.container {
+  padding-bottom: 20px; }
+
+.h3 {
+  color: grey !important; }
+
+.my-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.658); }
+  .my-flex p {
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.808); }
