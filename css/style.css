@@ -328,3 +328,17 @@ template {
   .my-flex p {
     font-size: 14px;
     color: rgba(128, 128, 128, 0.808); }
+
+.navigation {
+  width: 100%;
+  background: black;
+  height: auto;
+  padding: 2px 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .navigation .btn {
+    display: flex;
+    align-items: center; }
+  .navigation .btn:hover {
+    background: orange; }

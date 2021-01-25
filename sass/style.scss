@@ -31,6 +31,25 @@
     }
 }
 
+.navigation{
+    width: 100%;
+    background: black;
+    height: auto;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    & .btn{
+        display: flex;
+        align-items: center;
+    }
+    & .btn:hover{
+        background: orange;
+
+    }
+}  
+
+
 
 
 
