@@ -2,3 +2,13 @@
 @import './mixins';
 @import './normalize';
 @import './variables';
+
+.heading__primary {
+  color: red;
+}
+
+.kam {
+  background-color: blue;
+  border: 2px solid red;
+  color: white;
+}
