@@ -22,244 +22,59 @@
   <body>
     <div class="fluid-container height-100">
       <div class="row">
-        <nav class="col-md-2 d-none d-md-block bg-dark sidebar height-100">
+        <nav class="col-md-2 sidebar height-100">
           <div class="sidebar-sticky">
-            <div>
-              <h2 class="icon icon-lab">Just do it!</h2>
-              <button
-                class="navbar-toggler pull-right collapsed"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbar-main"
-              >
-                <i class="fa fa-bars navbar-ico-open"></i>
-                <i class="fa fa-times navbar-ico-close"></i>
-              </button>
+            <div class="navigation__logo">
+              <h2 class="logo">Just do it!</h2>
+              <div class="box-hamb">
+                <i class="fa fa-bars navbar-ico-open icon--open"></i>
+                <i class="fa fa-times navbar-ico-close icon--close"></i>
+              </div>
             </div>
             <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-home"
-                  >
-                    <path
-                      d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
-                    ></path>
-                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                  </svg>
-                  General <span class="sr-only">(current)</span>
-                </a>
+              <li class="sidebar-items">
+                <i class="far fa-star"></i>
+                <span>General</span>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-file"
-                  >
-                    <path
-                      d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"
-                    ></path>
-                    <polyline points="13 2 13 9 20 9"></polyline>
-                  </svg>
-                  Detail
-                </a>
+              <li class="sidebar-items">
+                <i class="far fa-chart-bar"></i>
+                <span>Details</span>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-shopping-cart"
-                  >
-                    <circle cx="9" cy="21" r="1"></circle>
-                    <circle cx="20" cy="21" r="1"></circle>
-                    <path
-                      d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
-                    ></path>
-                  </svg>
-                  Links
-                </a>
+              <li class="sidebar-items">
+                <i class="fas fa-link"></i>
+                <span>Links</span>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-users"
-                  >
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="9" cy="7" r="4"></circle>
-                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                  </svg>
-                  Banners
-                </a>
+              <li class="sidebar-items">
+                <i class="fas fa-border-none"></i>
+                <span>Banners</span>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-bar-chart-2"
-                  >
-                    <line x1="18" y1="20" x2="18" y2="10"></line>
-                    <line x1="12" y1="20" x2="12" y2="4"></line>
-                    <line x1="6" y1="20" x2="6" y2="14"></line>
-                  </svg>
-                  Personal data
-                </a>
+              <li class="sidebar-items">
+                <i class="far fa-user"></i>
+                <span>Personal data</span>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-layers"
-                  >
-                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-                    <polyline points="2 17 12 22 22 17"></polyline>
-                    <polyline points="2 12 12 17 22 12"></polyline>
-                  </svg>
-                  Payout
-                </a>
+              <li class="sidebar-items">
+                <i class="fas fa-hand-holding-usd"></i>
+                <span>Payout</span>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-layers"
-                  >
-                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-                    <polyline points="2 17 12 22 22 17"></polyline>
-                    <polyline points="2 12 12 17 22 12"></polyline>
-                  </svg>
-                  Postback
-                </a>
+              <li class="sidebar-items">
+                <i class="fas fa-undo"></i>
+                <span>Postback</span>
               </li>
             </ul>
 
-            <div
-              class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted"
-            >
+            <div class="sidebar-manager">
               <h6>Your manager</h6>
+              <div class="manager">
+                <div class="img--box">
+                  <img src="./images/avatar-people.jpeg" alt="" />
+                </div>
+                <span>Mikhael E.</span>
+              </div>
             </div>
           </div>
         </nav>
 
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-          <div
-            class="chartjs-size-monitor"
-            style="
-              position: absolute;
-              inset: 0px;
-              overflow: hidden;
-              pointer-events: none;
-              visibility: hidden;
-              z-index: -1;
-            "
-          >
-            <div
-              class="chartjs-size-monitor-expand"
-              style="
-                position: absolute;
-                left: 0;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                overflow: hidden;
-                pointer-events: none;
-                visibility: hidden;
-                z-index: -1;
-              "
-            >
-              <div
-                style="
-                  position: absolute;
-                  width: 1000000px;
-                  height: 1000000px;
-                  left: 0;
-                  top: 0;
-                "
-              ></div>
-            </div>
-            <div
-              class="chartjs-size-monitor-shrink"
-              style="
-                position: absolute;
-                left: 0;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                overflow: hidden;
-                pointer-events: none;
-                visibility: hidden;
-                z-index: -1;
-              "
-            >
-              <div
-                style="
-                  position: absolute;
-                  width: 200%;
-                  height: 200%;
-                  left: 0;
-                  top: 0;
-                "
-              ></div>
-            </div>
-          </div>
+        <main class="col-md-10 main">
           <nav class="navigation">
             <button class="btn">
               <span>Share</span>
@@ -279,31 +94,224 @@
               <i class="fas fa-angle-down"></i>
             </button>
           </nav>
-          <div
-            class="d-flex paddingB justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
-          >
-            <div class="container">
-              <div>
-                <h1 class="h3">General Static</h1>
-              </div>
-              <div>
-                <input
-                  type="date"
-                  id="start"
-                  name="start"
-                  value="2021-01-22"
-                  min="2020-01-01"
-                  max="2021-12-31"
-                />
+          <div class="section__one">
+            <div class="general-title">
+              <h1>General Static</h1>
+            </div>
 
-                <input
-                  type="date"
-                  id="end"
-                  name="end"
-                  value="2021-01-22"
-                  min="2020-01-01"
-                  max="2021-12-31"
-                />
+            <div class="date-con">
+              <input
+                type="date"
+                id="start"
+                name="start"
+                value="2021-01-22"
+                min="2020-01-01"
+                max="2021-12-31"
+              />
+
+              <input
+                type="date"
+                id="end"
+                name="end"
+                value="2021-01-22"
+                min="2020-01-01"
+                max="2021-12-31"
+              />
+              <button type="button" class="btn btn-secondary">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-clockwise"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"
+                  ></path>
+                  <path
+                    d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <div class="container">
+              <div class="stats">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <div class="my-flex">
+                      <p>Visit signups</p>
+                      <span>123</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="my-flex">
+                      <p>Net deposit</p>
+                      <span>123</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <div class="my-flex">
+                      <p>FTD</p>
+                      <span>123</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="my-flex">
+                      <p>Turn over</p>
+                      <span>123</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="chart-row">
+                  <h3>Earnings chart</h3>
+                </div>
+              </div>
+
+              <div class="section__chart">
+                <div class="section__chart--chartbox">
+                  <canvas id="myChart"></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section__two">
+            <div class="general-title">
+              <h1>Links</h1>
+            </div>
+
+            <div class="date-con">
+              <button type="button" class="btn btn-secondary">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-clockwise"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"
+                  ></path>
+                  <path
+                    d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"
+                  ></path>
+                </svg>
+                add new
+              </button>
+            </div>
+
+            <div class="container">
+              <div class="section__two--table">
+                <table style="width: 100%">
+                  <tr class="table--row">
+                    <td class="table--cell">Home page</td>
+                    <td class="table--cell">
+                      <a href="#">http://www.homepage.com</a>
+                      <div class="table--cell-icons">
+                        <i class="fa fa-bars navbar-ico-open"></i>
+                        <i class="fa fa-times navbar-ico-close"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="table--row">
+                    <td class="table--cell">Home page</td>
+                    <td class="table--cell">
+                      <a href="#">http://www.homepage.com</a>
+                      <div class="table--cell-icons">
+                        <i class="fa fa-bars navbar-ico-open"></i>
+                        <i class="fa fa-times navbar-ico-close"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="table--row">
+                    <td class="table--cell">Home page</td>
+                    <td class="table--cell">
+                      <a href="#">http://www.homepage.com</a>
+                      <div class="table--cell-icons">
+                        <i class="fa fa-bars navbar-ico-open"></i>
+                        <i class="fa fa-times navbar-ico-close"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="table--row">
+                    <td class="table--cell">Home page</td>
+                    <td class="table--cell">
+                      <a href="#">http://www.homepage.com</a>
+                      <div class="table--cell-icons">
+                        <i class="fa fa-bars navbar-ico-open"></i>
+                        <i class="fa fa-times navbar-ico-close"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="table--row">
+                    <td class="table--cell">Home page</td>
+                    <td class="table--cell">
+                      <a href="#">http://www.homepage.com</a>
+                      <div class="table--cell-icons">
+                        <i class="fa fa-bars navbar-ico-open"></i>
+                        <i class="fa fa-times navbar-ico-close"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="table--row">
+                    <td class="table--cell">Home page</td>
+                    <td class="table--cell">
+                      <a href="#">http://www.homepage.com</a>
+                      <div class="table--cell-icons">
+                        <i class="fa fa-bars navbar-ico-open"></i>
+                        <i class="fa fa-times navbar-ico-close"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="table--row">
+                    <td class="table--cell">Home page</td>
+                    <td class="table--cell">
+                      <a href="#">http://www.homepage.com</a>
+                      <div class="table--cell-icons">
+                        <i class="fa fa-bars navbar-ico-open"></i>
+                        <i class="fa fa-times navbar-ico-close"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="table--row">
+                    <td class="table--cell">Home page</td>
+                    <td class="table--cell">
+                      <a href="#">http://www.homepage.com</a>
+                      <div class="table--cell-icons">
+                        <i class="fa fa-bars navbar-ico-open"></i>
+                        <i class="fa fa-times navbar-ico-close"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="table--row">
+                    <td class="table--cell">Home page</td>
+                    <td class="table--cell">
+                      <a href="#">http://www.homepage.com</a>
+                      <div class="table--cell-icons">
+                        <i class="fa fa-bars navbar-ico-open"></i>
+                        <i class="fa fa-times navbar-ico-close"></i>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr class="table--row">
+                    <td class="table--cell">Home page</td>
+                    <td class="table--cell">
+                      <a href="#">http://www.homepage.com</a>
+                      <div class="table--cell-icons">
+                        <i class="fa fa-bars navbar-ico-open"></i>
+                        <i class="fa fa-times navbar-ico-close"></i>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="section__two--btn">
                 <button type="button" class="btn btn-secondary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -321,64 +329,67 @@
                       d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"
                     ></path>
                   </svg>
+                  add new
                 </button>
-              </div>
-            </div>
-          </div>
-          <div class="stats border-bottom">
-            <div class="row justify-content-center">
-              <div class="col-md-4">
-                <div class="my-flex">
-                  <p>Visit signups</p>
-                  <span>123</span>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="my-flex">
-                  <p>Net deposit</p>
-                  <span>123</span>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-center">
-              <div class="col-md-4">
-                <div class="my-flex">
-                  <p>FTD</p>
-                  <span>123</span>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="my-flex">
-                  <p>Turn over</p>
-                  <span>123</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
-          >
-            <div class="container">
-              <div>
-                <h1 class="h3">Link</h1>
-                <button class="btn btn-sm btn-outline-secondary">Export</button>
-                <ul>
-                  <li>
-                    Lorem ipsum dolor, consectetur
-                    <a href="#">consectetur adipiscing elit.</a>.
-                  </li>
-                  <li>Lorem ipsum dolor <strong>sit amet</strong></li>
-                  <li>
-                    Lorem ipsum dolor <strong>sit amet</strong>, consectetur
-                    <a href="#">consectetur adipiscing elit.</a>.
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
         </main>
       </div>
     </div>
+    <script>
+      const toggleMenu = () => {
+        const open = document.querySelector('.icon--open');
+        const close = document.querySelector('.icon--close');
+        open.addEventListener('click', () => {
+          open.style.visibility = 'hidden';
+          close.style.visibility = 'visible';
+          console.log(close);
+        });
+        close.addEventListener('click', () => {
+          close.style.visibility = 'hidden';
+          open.style.visibility = 'visible';
+        });
+      };
+      toggleMenu();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script>
+      var ctx = document.getElementById('myChart').getContext('2d');
+      var chart = new Chart(ctx, {
+        // 1
+        type: 'bar',
+        data: {
+          // 2
+          labels: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10'],
+          // 3
+          datasets: [
+            {
+              // 4
+              label: 'Signups',
+              // 5
+              backgroundColor: '#8DBEC8',
+              borderColor: '#8DBEC8',
+              // 6
+              data: [52, 51, 41, 94, 26, 6, 72, 9, 21, 88],
+            },
+            {
+              label: 'FTD',
+              backgroundColor: '#F29E4E',
+              borderColor: '#F29E4E',
+              data: [6, 72, 1, 0, 47, 11, 50, 44, 63, 76],
+            },
+            {
+              label: 'Earned',
+              backgroundColor: '#71B374',
+              borderColor: '#71B374',
+              data: [59, 49, 68, 90, 67, 41, 13, 38, 48, 48],
+              // 7
+              hidden: true,
+            },
+          ],
+        },
+      });
+    </script>
   </body>
 </html>
