@@ -331,14 +331,17 @@
       const toggleMenu = () => {
         const open = document.querySelector('.icon--open');
         const close = document.querySelector('.icon--close');
+        const sidebar = document.querySelector('.sidebar');
+
         open.addEventListener('click', () => {
           open.style.visibility = 'hidden';
           close.style.visibility = 'visible';
-          console.log(close);
+          sidebar.classList.add('active');
         });
         close.addEventListener('click', () => {
           close.style.visibility = 'hidden';
           open.style.visibility = 'visible';
+          sidebar.classList.remove('active');
         });
       };
       toggleMenu();
